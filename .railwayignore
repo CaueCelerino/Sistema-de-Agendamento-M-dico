@@ -1,0 +1,14 @@
+node_modules/
+npm-debug.log
+.env
+.git/
+.gitignore
+*.test.js
+/tests/
+/docs/
+/frontend/
+/mobile/
+/database/
+*.db
+*.sql
+*.zip
