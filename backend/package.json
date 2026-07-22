@@ -1,0 +1,39 @@
+{
+  "name": "projeto-5m-backend",
+  "version": "0.1.0",
+  "description": "Backend API - PROJETO 5M Clínica",
+  "main": "src/server.js",
+  "author": "Lucas, Caue, Kaio, Gustavo",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "mock": "node src/mock_server.js",
+    "test": "jest --detectOpenHandles --forceExit",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "sqlite"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "cors": "2.8.5",
+    "dotenv": "16.3.1",
+    "express": "4.18.2",
+    "express-async-errors": "^3.1.1",
+    "firebase-admin": "^14.1.0",
+    "jsonwebtoken": "^9.0.1",
+    "morgan": "1.10.0",
+    "sqlite3": "5.1.6"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "jest": "^30.4.2",
+    "nodemon": "3.0.1",
+    "supertest": "^7.2.2"
+  }
+}

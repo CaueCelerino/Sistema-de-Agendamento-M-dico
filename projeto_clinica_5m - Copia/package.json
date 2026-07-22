@@ -1,0 +1,31 @@
+{
+  "name": "projeto-5m-clinica",
+  "version": "0.1.0",
+  "description": "Sistema de agendamento de consultas e exames com controle de cartões - Clínica",
+  "main": "backend/server.js",
+  "author": "Lucas, Caue, Kaio, Gustavo",
+  "scripts": {
+    "db:init": "bash init_db.sh",
+    "backend:dev": "cd backend && npm run dev",
+    "backend:start": "cd backend && npm start",
+    "frontend:dev": "cd frontend && npm start",
+    "frontend:build": "cd frontend && npm run build",
+    "mobile:dev": "cd mobile && flutter run",
+    "mobile:build": "cd mobile && flutter build apk --release",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:dev\"",
+    "test": "cd backend && npm test"
+  },
+  "keywords": [
+    "clínica",
+    "agendamento",
+    "cartão-de-acesso",
+    "consultas",
+    "exames"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.0.0",
+    "playwright": "^1.61.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Espaço Vida",
+  "short_name": "Espaço Vida",
+  "description": "Sistema de agendamentos, cartões e acompanhamento da clínica Espaço Vida.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#ae0407",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

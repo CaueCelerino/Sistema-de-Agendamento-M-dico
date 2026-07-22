@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Espaço Vida icon">
+  <rect width="512" height="512" rx="96" fill="#AE0407" />
+  <path d="M140 176h232v56H140zM140 270h176v56H140z" fill="#FFF" />
+  <circle cx="360" cy="298" r="48" fill="#FFD166" />
+</svg>

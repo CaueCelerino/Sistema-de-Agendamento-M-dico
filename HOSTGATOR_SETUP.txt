@@ -1,0 +1,32 @@
+INSTRUÇÕES HOSTGATOR - PLANO M
+
+PASSO 1: IMPORTAR BANCO DE DADOS
+- Acessar: cPanel > phpMyAdmin
+- Criar banco: clinica_5m_prod
+- Criar usuário: clinica_user (senha: Medicinaespacovid@26)
+- Importar arquivo: schema_mysql.sql
+
+PASSO 2: UPLOAD FRONTEND
+- File Manager > public_html
+- Deletar arquivos padrão
+- Upload de todos os arquivos de: frontend/dist/
+
+PASSO 3: CONFIGURAR .htaccess
+- Arquivo .htaccess já está pronto
+- Fazer upload na raiz de public_html/
+
+PASSO 4: CONFIGURAR API
+- Se usar Railway/Render: URL será fornecida pelos serviços
+- Se usar outra solução: atualizar VITE_API_URL em frontend/.env.production
+- Recompilar e fazer novo upload
+
+PASSO 5: TESTAR
+- Acessar seu domínio
+- Verificar console (F12) por erros
+- Testar login e funcionamento
+
+CREDENCIAIS BANCO:
+- Host: localhost
+- Database: clinica_5m_prod
+- User: clinica_user
+- Password: Medicinaespacovid@26

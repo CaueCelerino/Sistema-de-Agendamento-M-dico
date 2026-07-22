@@ -1,0 +1,12 @@
+{
+  "appId": "com.espacovida.clinica",
+  "appName": "Espaço Vida",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "allowNavigation": [
+      "tournaments-label-circumstances-that.trycloudflare.com",
+      "beads-using-silent-sig.trycloudflare.com"
+    ]
+  }
+}

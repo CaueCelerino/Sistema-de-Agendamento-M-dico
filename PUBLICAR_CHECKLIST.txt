@@ -1,0 +1,39 @@
+ARQUIVOS E PASTAS - O QUE FAZER
+
+✅ PUBLICAR NO HOSTGATOR (frontend/dist/)
+- index.html
+- assets/ (pasta com CSS/JS compilados)
+- icons/ (favicons)
+- manifest.webmanifest
+- sw.js
+- workbox-*.js
+- .htaccess
+
+✅ USAR NO HOSTGATOR (banco de dados)
+- schema_mysql.sql (executar no phpMyAdmin)
+
+❌ NÃO PUBLICAR
+- node_modules/
+- /backend (não suportado em Hostgator compartilhado)
+- /mobile (é aplicação Flutter)
+- .env
+- .env.production (guardar cópia local apenas)
+- .git/
+- *.test.js
+- /tests/
+- package-lock.json
+- jest.config.json
+- mock_server.js
+- vite.config.js (não é necessário em produção)
+- postcss.config.cjs (não é necessário em produção)
+- tailwind.config.cjs (CSS já está compilado)
+- capacitor.config.json (mobile config)
+- .gitignore
+- *.log
+- /dev-dist/
+- /build/
+
+RESUMO:
+-> Upload em public_html/: todos os arquivos de frontend/dist/
+-> Executar no phpMyAdmin: schema_mysql.sql
+-> Criar .htaccess (já criado, fazer upload também)
